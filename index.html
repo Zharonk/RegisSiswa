@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="png" href="enep.png"><!-- Logo atas (Nurul fikri)  -->
+    <title>Registrasi Siswa</title> <!-- Judul  -->
+    </head>
+
+    <body>
+        <header>
+            <h2><font color="cyan">REGISTRASI SISWA</font></h2>
+        </header>
+        
+        <form action="" method="POST">
+            <fieldset>
+                <p>
+                    <label for="no_pendaftaran">Nomor Pendaftaran</label>
+                    <input type="text" name="no_pendaftaran"/>
+                </p>
+
+                <p>
+                    <label for="nama">Nama Lengkap: </label>
+                    <input type="text" name="nama" placeholder="nama lengkap anda" />
+                </p>
+                
+                <p>
+                    <label for="nama">Nama Panggilan: </label>
+                    <input type="text" name="nama" placeholder="nama panggilan anda" />
+                </p>
+                
+                <p>
+                    <label for="birthday">Tanggal Lahir:</label>
+                    <input type="date" id="birthday" name="birthday">
+                </p>
+
+                <p>
+                    <label for="jenis_kelamin">Jenis Kelamin: </label>
+                    <label><input type="radio" name="jenis_kelamin" value="laki-laki"> Laki-laki</label>
+                    <label><input type="radio" name="jenis_kelamin" value="perempuan"> Perempuan</label>
+                </p>
+
+                <p>
+                    <label for="alamat">Alamat: </label>
+                    <textarea name="alamat"></textarea>
+                </p>
+
+                <p>
+                    <label for="nama">Agama: </label>
+                    <input type="text" name="nama"/>
+                </p>
+
+                <p>
+                    <label for="alasan">Alasan Mendaftar: </label>
+                    <textarea name="alasan"></textarea>
+                </p>
+
+                <p>
+                    <input type="submit" value="Daftar" name="daftar" />
+                </p>
+            </fieldset>
+                
+        </form>
+    </body>
+</html>
